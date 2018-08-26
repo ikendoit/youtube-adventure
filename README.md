@@ -1,7 +1,5 @@
 # Youtube Adventure, investigating youtube's algorithm for video encription
 
-Weekend Adventure, May I never Have Friends. 
-
 ## Mission: 
 
 ```
