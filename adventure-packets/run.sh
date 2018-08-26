@@ -15,7 +15,7 @@ sed -i "s/%25/%/g" adaptive_stream
 python -c "import sys, urllib as ul; \
     print ul.unquote_plus(\"`cat adaptive_stream`\")" > adaptive_stream
 # 1.3 
-sed -i "s/&/&\n/g" adaptive_stream
+sed -i "s/&url/&\nurl/g" adaptive_stream
 
 
 # 1.3 

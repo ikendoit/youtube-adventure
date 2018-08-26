@@ -1,8 +1,8 @@
-#Youtube Adventure, investigating youtube's algorithm for video encription
+# Youtube Adventure, investigating youtube's algorithm for video encription
 
 Weekend Adventure, May I never Have Friends. 
 
-##Mission: 
+## Mission: 
 
 ```
   Explore how Youtube encripts its videos 
@@ -12,7 +12,7 @@ Weekend Adventure, May I never Have Friends.
   Find Way to manipulate audio on the fly in web browsers
 ```
 
-##Findings: 
+## Findings: 
 
 ```
   It seems the 3 operations ( slice, swap, reverse ) is obvious when we investigate the hex structures of .webm 
@@ -21,7 +21,12 @@ Weekend Adventure, May I never Have Friends.
   OPUS, VP9 ( thanks Google ! ) 
 ```
 
-##TODO: 
+## Findings (less irrelevant): 
+```
+	0xAA (hex) is 170 (decimal), amazing. 
+```
+
+## TODO: 
 
 ```
   1. get as much video data as possible ( a web scraper )
@@ -31,7 +36,7 @@ Weekend Adventure, May I never Have Friends.
   30. make a script to decipher those algorithms 
 ```
 
-##Resources:
+## Resources:
 
 - https://www.tyrrrz.me/Blog/Reverse-engineering-YouTube
 
