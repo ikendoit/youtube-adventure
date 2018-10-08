@@ -1,5 +1,7 @@
 # Youtube Adventure, investigating youtube's algorithm for video encription
 
+### Now we are taking some time off to learn a bit of web audio, which may help me reach my goal faster. 
+
 ## Mission: 
 
 ```
@@ -28,6 +30,7 @@
 ## Confusions: 
 ```
 	- The hex encription pattern has ( 2 bytes => 1 bytes ), (swap), (replace). But what if it has (1 byte => 2 bytes ) ? Can I deduce how it should look like.
+	- How to check for ending bytes, is the ending byte in the first packet or it exists in every packet ? ( or webm doesn't need ending packet at all now ?) 
 ```
 
 ## TODO: 
