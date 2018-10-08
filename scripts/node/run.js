@@ -18,19 +18,19 @@ for (let i=0; i < hexOriginal.length-1; i++) {
 
 	if (exists_single){
 		if (exists_single === 'none') {
-			hexOriginal = bufferDelete(i, i+1)
+			hexOriginal = bufferDelete(hexOriginal, i, i+1)
 		} else {
-			hexOriginal = bufferDelete(i,i+1)
-			hexOriginal = buffer.Splice(hexOriginal, new Buffer.from([exists_single]), i+1)
+			hexOriginal = bufferDelete(hexOriginal, i,i+1)
+			hexOriginal = bufferSplice(hexOriginal, new Buffer.from([exists_single]), i+1)
 		}
 	}
 
 	if (exists_multi){
 		if (exists_multi === 'none') {
-			hexOriginal = bufferDelete(i, i+2)
+			hexOriginal = bufferDelete(hexOriginal, i, i+2)
 		} else {
-			hexOriginal = bufferDelete(i,i+2)
-			hexOriginal = buffer.Splice(hexOriginal, new Buffer.from([exists_multi]), i+1)
+			hexOriginal = bufferDelete(hexOriginal, i,i+2)
+			hexOriginal = bufferSplice(hexOriginal, new Buffer.from([exists_multi]), i+1)
 		}
 	}
 
